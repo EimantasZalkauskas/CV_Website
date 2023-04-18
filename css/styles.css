@@ -134,6 +134,11 @@ h5{
         padding: 8% 19% 95% 19%;
       }
   }
+  @media (max-width: 532px){
+    .about-me-container {
+        padding: 8% 19% 100% 19%;
+      }
+  }
 
 #about-me h1{
     padding-bottom: 40px;
@@ -253,7 +258,7 @@ h5{
 /* Contact me */
 
 .contact-me-container{
-    padding: 75px 19%;
+    padding: 75px 19% 30px 19%;
     background-color: #93BFCF;
     color: white;
     
@@ -265,7 +270,7 @@ h5{
 }
 
 .contact-me-icons{
-    padding: 10%;
+    padding: 5% 10% 2% 10%;
     text-align: center;
 }
 
