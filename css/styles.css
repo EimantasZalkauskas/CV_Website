@@ -1,0 +1,279 @@
+h5{
+    text-align:left;
+    padding-top: 20px;}
+
+/* navbar */
+
+.nav-container{
+    margin: auto;
+    padding: 0;
+}
+
+.navbar{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    /* width: 100%; */
+    padding: 0 15%;
+    overflow: hidden;
+    white-space: nowrap;
+    
+}
+
+.nav{
+    text-align: center;
+}
+
+.navbar .btn {
+    color: #fff;
+    background-color: transparent;
+}
+
+.navbar .btn:hover {
+    background-color: white;
+    opacity: 0.5;
+    color: black;
+}
+
+.navbar .nav-item{
+    margin: 0 50px;
+}
+
+.navbar .btn{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    opacity: 0.5;
+}
+
+.navbar-nav > li {
+    display: inline-block;
+    float: none;
+}
+
+
+
+@media (max-width: 991px){
+    .nav-container{
+        margin-left: 0;
+    }
+}
+
+/* Navbar scroll  */
+
+
+
+
+/* title */
+#title{
+    position: relative;
+}
+
+.title-font{
+    font-family: 'Dancing Script', cursive;
+}
+
+.title-img{
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height:100vh;
+}
+
+.title-container{
+    position: absolute;
+    top: 20%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.title-container h1{
+    font-weight: bold;
+    font-size: 7rem;
+}
+
+.title-container h3{
+    font-weight: normal;
+    font-size: 2.5rem;
+}
+
+.container-fluid{
+    padding: 10% 20%;
+    text-align: center;
+    color: white;
+}
+
+/* About Me Brief */
+#about-me{
+    background-color: #EEEEEE;
+
+}
+
+.about-me-container {
+    padding: 8% 19% 15% 19%;
+  }
+
+  @media (max-width: 1084px){
+    .about-me-container {
+        padding: 8% 19% 50% 19%;
+      }
+    .about-me-img{
+        width: 80%;
+    }
+  }
+  @media (max-width: 826px){
+    .about-me-container {
+        padding: 8% 19% 70% 19%;
+      }
+  }
+  @media (max-width: 599px){
+    .about-me-container {
+        padding: 8% 19% 95% 19%;
+      }
+  }
+
+#about-me h1{
+    padding-bottom: 40px;
+    margin: 0;
+}
+
+.heading-font{
+    font-family: 'Lato', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 1.5;
+    letter-spacing: 3px;
+}
+
+.about-me-img{
+    border-radius: 50%;
+    width: 60%;
+    padding: 40px 5px;
+
+}
+
+#about-me p{
+    padding-top: 50px;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5rem;
+    font-weight: normal;
+    line-height: 1.5;
+    opacity: 0.8;
+    white-space: normal;
+}
+
+#about-me .row{
+    height: 20vh;
+}
+
+/* CV */
+
+.cv-container{
+    padding: 75px 19%;
+    background-color: #93BFCF;
+    color: white;
+}
+
+.text-bold{
+    color: white;
+    font-weight: bold;
+    opacity: 1;
+}
+
+.cv-container .card{
+    background-color: transparent;
+}
+
+.cv-container .card-pos{
+    padding: 50px 40px 0 0;
+}
+
+.cv-container .card-text{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2rem;
+    font-weight: normal;
+    line-height: 1.5;
+    color: white;
+    opacity: 0.8;
+    padding: 10px 0 0 0;
+}
+
+.cv-container li{
+    padding: 10px 0 0 0;
+    margin-left: 20px;
+}
+
+.cv-container .card-title{
+    font-family: 'Lato', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+.cv-container p{
+    font-size: 1;
+    line-height:1.5;
+    padding: 10px;
+    margin: 0;
+    word-spacing: 3px;
+}
+
+.cv-container .second-row{
+    padding-top: 45px;
+}
+
+@media (max-width: 989px) {
+    .cv-container .second-row{
+        padding-top: 0;
+    }
+}
+
+/* Projects */
+
+.projects-container h1{
+    padding: 75px 19%;
+    margin: 0;
+    background-color: #EEEEEE;
+}
+
+.carousel-content{
+    background-color: #EEEEEE;
+    padding: 10% 15%;
+}
+
+.projects-img-tmp{
+    width: 100%;
+}
+
+
+/* Contact me */
+
+.contact-me-container{
+    padding: 75px 19%;
+    background-color: #93BFCF;
+    color: white;
+    
+}
+
+.contact-me-container h2{
+    margin: 0 15%;
+    text-align: center;
+}
+
+.contact-me-icons{
+    padding: 10%;
+    text-align: center;
+}
+
+.contact-me-icons .icon{
+    margin: 3%;
+    color: #ffffff;
+}
+
+.contact-me-icons .icon:hover{
+    color: #dad6c8;
+}
